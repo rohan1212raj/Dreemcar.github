@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="flip.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bike</title>
+<link rel="stylesheet" href="flip.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<style>
+     .bike{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+     }
+     .bike .box{
+      flex: 1 1 18rem;
+      border: 2px solid rgb(218, 205, 205);
+      border-radius: 5px;
+      position: relative;
+      display: flex;
+      padding: 17px;
+      flex-direction: column;
+      margin-bottom: 1.5rem;
+     }
+     .bike .box img{
+       height: 100%; 
+       object-fit: contain; 
+       object-position: center;
+       margin-bottom: 1rem;
+     }
+
+    .bike .box img:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+     .bike .box h3{
+      /* max-width: rem; */
+      color: var(--main-color);
+     }
+     .bike .box span{
+      font-size: 20px;
+      color: var(--main-color);
+      font-weight: 600;
+      margin-top: 5px;
+      
+     }
+     .bike .btn{
+      max-width: 7rem;
+      margin-top: 5px;
+     }
+     .bike .detail{
+     display: flex;
+     position: absolute;
+     align-items: center;
+     bottom: 1.8rem;
+     right: 1rem;
+     font-size: 1rem;
+   }
+   .bike .detail:hover{
+    color: var(--main-color);
+    text-decoration: underline;
+   }
+   .off{
+    text-align: center;
+    margin-top: 1.5rem;
+   }
+   .off span{
+    color: var(--main-color);
+   }
+   .home{
+max-width: 1550px;
+margin: auto;
+width: 100%;
+min-height: 640px;
+align-items: center;
+background-image: url(img/bike.bc1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center left;
+}
+     
+</style>
+</head>
+<body>
+
+
+  <header>
+    <div class="nav container">
+    <i class="fa fa-bars" id="menu-icon"></i>
+    <a href="carpoint.html" class="logo">Car<span>point</span></a>
+    <ul class="navbar">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="car.html">Cars</a></li>
+      <li><a href="bike.html" class="active">Bike</a></li>
+      <li><a href="part.html">parts</a></li>
+      <li><a href="login1.html"><i class="fa fa-user"></i></a></li>
+    </ul>
+ 
+    <i class="fa fa-search" id="search-icon"></i>
+    <div class="search-box container">
+       <input type="search" name="" id="" placeholder="search hear....">
+    </div>
+    </div> 
+ </header> 
+
+ <section class="home" id="home">
+<div class="home-text">
+</div>
+</section>
+
+  <div class="off">
+    <span>What we Offer </span>
+    <h2>Our Car Is Always Excellent</h2>
+    <P>Riding a bicycle is the closest you can get to flying. Your bike is a discovery; your bike is freedom.</P>
+ </div>
+
+ <div class="bike">
+ <div class="box">
+ <img src="img/kawasaki-ninja-h2r-standard.webp" alt="">
+<h3>Kawasaki Ninja H2R</h3>
+<span>Rs. 79,90,000</span>
+ <!-- <a href="#" class="btn">Buy Now</a> -->
+ <a href="https://www.bikewale.com/kawasaki-bikes/ninja-h2r/" class="detail">Viwe Details</a>
+ </div>
+
+ <div class="box">
+<img src="img/bulletbike3.jpg" alt="">
+<h3>Royal Enfield classic 400</h3>
+ <span>Rs. 1,24,918</span>
+ <!-- <a href="#" class="btn">Buy Now</a> -->
+ <a href="bullet view.html" class="detail">Viwe Details</a>
+ </div>
+
+ <div class="box">
+<img src="img/ktm5.jpg" alt="">
+<h3>KTM-rc-200</h3>
+ <span>Rs. 2.13 - 2.15 Lakh</span>
+ <!-- <a href="#" class="btn">Buy Now</a> -->
+ <a href="https://www.bikedekho.com/ktm/rc-200" class="detail">View Details</a>
+</div>
+
+ <div class="box">
+<img src="img/apache7.png" alt="">
+<h3>TVS APACHE Rtr 200 4v</h3>
+ <span>Rs. 142,929.00</span>
+ <!-- <a href="#" class="btn">Buy Now</a> -->
+ <a href="https://www.bikewale.com/tvs-bikes/apache-200/" class="detail">View Details</a>
+</div>
+
+<div class="box">
+  <img src="img/ninjabike2.jpg" alt="">
+  <h3>New Kawasaki Ninja 400</h3>
+   <span>Rs. 4.69lakh</span>
+   <!-- <a href="#" class="btn">Buy Now</a> -->
+   <a href="https://www.bikedekho.com/kawasaki/ninja-400" class="detail">View Details</a>
+  </div>
+
+
+ <div class="box">
+ <img src="img/bulltebike4.webp" alt="">
+  <h3>Royal Enfield classic 350</h3>
+  <span>Rs. 2.07lakh</span>
+  <!-- <a href="#" class="btn">Buy Now</a> -->
+  <a href="https://www.bikewale.com/royalenfield-bikes/classic-350/" class="detail">View Details</a>
+  </div>
+
+
+  <div class="box">
+  <img src="img/ktm6.webp" alt="">
+    <h3>KTM Duke 250-390</h3>
+    <span>Rs. 2.07lakh</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://www.bikewale.com/compare-bikes/ktm-duke-250-vs-ktm-duke-390/" class="detail">View Details</a>
+    </div>
+
+  <div class="box">
+  <img src="img/apache8.png" alt="">
+    <h3>APACHE Rtr 200 fi V bike</h3>
+    <span>Rs. 107,270</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://www.bikedekho.com/tvs/apache-rtr-200-4v" class="detail">View Details</a>
+    </div>
+
+  <div class="box">
+   <img src="img/Pulsar10.jpg" alt="">
+    <h3>Bajaj PULSAR 125 </h3>
+    <span>Rs. 86,800</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://www.bikewale.com/bajaj-bikes/pulsar-125/" class="detail">View Details</a>
+  </div>
+
+  <div class="box">
+  <img src="img/yamaha12.webp" alt="">
+    <h3>YAMAHA YZF-R125</h3>
+    <span>Rs. 1,3500</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://autos.maxabout.com/bikes/yamaha/r125" class="detail">View Details</a>
+  </div>
+
+  <div class="box">
+  <img src="img/apache7.png" alt="">
+    <h3>Tv Apache rtr 200 4v</h3>
+    <span>Rs. 142,929.00</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://www.bikedekho.com/tvs/apache-rtr-200-4v" class="detail">View Details</a>
+  </div>
+
+  <div class="box">
+ <img src="img/yamaha11.jpg" alt="">
+    <h3>Blue White 155cc YAMAHA bike</h3>
+    <span>Rs. 1.5 lakh</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://autos.maxabout.com/bikes/yamaha/r125" class="detail"> View Details</a>
+  </div>
+
+  <div class="box">
+  <img src="img/ninjabike2.jpg" alt="">
+    <h3>Kawasaki Ninja H2R</h3>
+    <span>Rs. 79,90,000</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://www.bikewale.com/kawasaki-bikes/ninja-h2r/" class="detail">View Details</a>
+  </div>
+
+
+  <div class="box">
+  <img src="img/ktm5.jpg" alt="">
+    <h3>KTM Duke 250-390</h3>
+    <span>Rs. 2.98lakh</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://www.bikewale.com/compare-bikes/ktm-duke-250-vs-ktm-duke-390/" class="detail">View Details</a>
+  </div>
+
+  <div class="box">
+  <img src="img/pulsar9.png" alt="">
+    <h3>Bajaj PULSAR N160</h3>
+    <span>Rs. 1.22-1.30lakh</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://www.bikewale.com/bajaj-bikes/pulsar-125/" class="detail">View Details</a>
+</div>
+
+  <div class="box">
+  <img src="img/yamaha11.jpg" alt="">
+    <h3>YAMAHA YZF-R125</h3>
+    <span>Rs. 1,35000</span>
+    <!-- <a href="#" class="btn">Buy Now</a> -->
+    <a href="https://autos.maxabout.com/bikes/yamaha/r125" class="detail">View Details</a>
+</div>
+
+</div> 
+ 
+
+<section class="footer">
+  <div class="div footer-container container">
+     <div class="footer-box">
+        <a href="#" class="logo">Car<span>point</span></a>
+        <div class="social">
+           <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+           <a href="https://www.google.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+           <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+           <a href="https://www.instagram.com"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+     </div>
+     <div class="footer-box">
+        <h3>Page</h3>
+        <a href="home.html">Home</a>
+        <a href="car.html">Cars</a>
+        <a href="bike.html">Bike</a>
+        <a href="#">Sales</a>
+     </div>
+
+     <div class="footer-box">
+        <h3>Legal</h3>
+        <a href="#">Privacy</a>
+        <a href="#">Refund policy</a>
+        <a href="#">Cookie policy</a>
+     </div>
+
+     <div class="footer-box">
+        <h3>Countries</h3>
+        <p>India</p>
+        <p>Usa</p>
+        <p>Japan</p>
+        <p>Germany</p>
+     </div>
+
+     <div class="footer-box">
+        <div class="footer-box">
+           <h3>Name Of Developer And Contact US</h3>
+           <p>Mr. Rohan raj, Mob-no.<a href="#">(8603684253)</a></p>
+           <p>Mr. Ajeet kumar, Mob-no.<a href="#">(8809260860)</a></p>
+           <p>Mr. kumar gaurav, Mob-no.<a href="#">(7352576558)</a></p>
+  </div>
+</section>
+<div class="copyright">
+  <p>$#169; CarpoolVenom All Right Reserved</p>
+</div>
+
+<script src="flip.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.div-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border: 1px solid #6f6f6f;
+    border-radius: 5px;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    margin-right: 15rem;
+}
+img{
+   width: 270px;
+   padding: 1rem; 
+}
+.btn1{
+    display: inline-block;
+    background: rgb(149, 148, 148);
+    color: white;
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.div-img h2{
+    margin-top: 1rem;
+    color: #484848;
+    font-size: 26px;
+}
+.div-img .bmw p{
+    display: flex;
+    margin: rem;
+    line-height: 2rem;
+}
+.div-img .bmw span{
+    margin-left: 1rem;
+    color: #aaa;
+}
+
+@media (max-width: 1110px){
+    .div-img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        border: 1px solid #6f6f6f;
+        border-radius: 5px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 450px){
+    .div-img h2 {
+        color: #484848;
+        font-size: 26px;
+        margin-left: 1rem;
+    }
+    .div-img .bmw p {
+        display: flex;
+        margin: rem;
+        line-height: 2rem;
+        margin-left: 1rem;
+    }
+    img {
+        width: 250px;
+        padding: 1rem;
+        margin-left: 2.1rem;
+    }
+}
+@media (max-width: 350px){
+    img {
+        width: 180px;
+        padding: 1rem;
+    }
+}
+
